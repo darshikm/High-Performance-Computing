@@ -30,7 +30,7 @@ void partition(int N, keytype* A, int k, int *lower, int *upper) {
    		return;
    	}
   	else {
-  		int i = 0, temp_l, temp_u, count = 0;
+  		int i = 0, count = 0;
   		keytype pivot = A[k];
   
   		/* Create new sub Arrays */
