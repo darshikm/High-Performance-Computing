@@ -9,7 +9,7 @@
 
 //Complex number structure
 struct complex { 
-    double real;         //Real part of the number
+    double real;    //Real part of the number
     double imag;    //imag part of the number
 } typedef complex;
 
